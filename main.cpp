@@ -49,6 +49,7 @@ int main(int argc,char*argv[]){
 	}else{
 		printf("0:0:0\n");
 	}
+	system("pause");
 return 0;
 }
 
@@ -71,14 +72,15 @@ void ProcessOptions(int argc,char *argv[]){
 		if(strcmp(argv[i],"-h")==0){argc=0;help=true;}
 		if(strcmp(argv[i],"--help")==0){argc=0;help=true;}
 	}
-	if(!Quiet)printf("CalcRuntime 1.1 by Travis Wells <cr@3dmm2.com>\n");
+	if(!Quiet)printf("CalcRuntime 1.2 by Travis Wells <cr@3dmm2.com>\n");
 	if(argc<2){
-		printf("Usage:\nCalcRuntime <file.3mm> [-q][-v][-xp]\n");
+		printf("Usage:\nCalcRuntime <file.3mm> [-q][-v][-xp]\n(Or drag a file onto me)\n");
 		if(help){
 			printf("-q\tQuiet/compact output\n");
 			printf("-v\tVerbose output\n");
 			printf("-xp\tCalculate using XP's frame rate.\n");
 		}
+		system("pause");
 		exit(0);
 	}
 	//printf("Verbose output enabled\n");
