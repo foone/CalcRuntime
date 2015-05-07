@@ -1,5 +1,5 @@
 /* CalcRuntime 
- * by Travis Wells <traviswells@mchsi.com>
+ * by Foone Turing <foone@foone.org>
  * This code is under the zlib license, see copying.txt or visit 
  * http://www.opensource.org/licenses/zlib-license.php for details.
  * 
