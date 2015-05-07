@@ -72,7 +72,7 @@ void ProcessOptions(int argc,char *argv[]){
 		if(strcmp(argv[i],"-h")==0){argc=0;help=true;}
 		if(strcmp(argv[i],"--help")==0){argc=0;help=true;}
 	}
-	if(!Quiet)printf("CalcRuntime 1.2 by Travis Wells <cr@3dmm2.com>\n");
+	if(!Quiet)printf("CalcRuntime 1.2 by Foone Turing <foone@foone.org>\n");
 	if(argc<2){
 		printf("Usage:\nCalcRuntime <file.3mm> [-q][-v][-xp]\n(Or drag a file onto me)\n");
 		if(help){
